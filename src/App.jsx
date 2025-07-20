@@ -59,14 +59,7 @@ function App() {
         ))}
       </section>
 
-      {/* Paid/Locked Cards */}
-      <section className="px-6 mt-6 grid grid-cols-3 gap-4">
-        {[1, 2, 3].map((i) => (
-          <div key={i} className="p-4 rounded-lg shadow bg-gray-200 text-center text-gray-500">
-            🔒 Premium Content
-          </div>
-        ))}
-      </section>
+      
 
       {/* Footer */}
       <footer className="mt-12 p-6 text-center text-sm text-gray-400">
